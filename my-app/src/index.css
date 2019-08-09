@@ -28,6 +28,7 @@ ul {
 
  a.active {
    color: blueviolet;
+   
  }
 a {
   text-decoration: none;
@@ -143,3 +144,9 @@ input {
     width: 100px;
   }
 }
+.div#root {
+  margin: 10px;
+  width: 100px;
+  color: lightblue;
+}
+
