@@ -90,7 +90,7 @@ export default class App extends Component {
 								<Photos data={this.state.search} results={match.params.query} match={match} />
 							)}
 					/>
-					<Route component={ NotFound } />
+					<Route component={ NotFound} />
 				</Switch>
 			</div>
 		);

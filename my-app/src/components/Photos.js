@@ -1,5 +1,5 @@
 import React from 'react';
-import PhotosList from './PhotosList';
+import PhotosList from './PhotoList';
 
 const Photos = (props) => {
 	// mapping over the items of the data passed as props to the photos component
