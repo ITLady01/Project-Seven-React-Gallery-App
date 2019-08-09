@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+  h1{ 
+    color:Purple;
+
+  }
+  h1.hover{ 
+    color:blue;
+
+  }
+
+  html.gr_localhost{ 
+    color:Purple;
+
+  }
+
+  a.active{ 
+    color:blueviolet;
+    
+
+  }
+  a{ 
+    color:blueviolet;
+
+  }
+  a.hover{ 
+    color:blue;
+
+  }
