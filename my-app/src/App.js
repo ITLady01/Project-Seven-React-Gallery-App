@@ -7,6 +7,7 @@ import PhotosList from './components/PhotosList';
 import NotFound from './components/NotFound';
 import apiKey from './config';
 
+
 export default class App extends Component {
 	// initialize the state of the App component
 	state = {
@@ -24,9 +25,7 @@ export default class App extends Component {
 	// and store the responses inside the state of the component with 'setState'
 	componentDidMount() {
 		for (let i = 0; i < this.defaultImages.length; i++) {
-			axios
-				.get(
-					`https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=${this
+			axios.get(`https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=${this
 						.defaultImages[i]}&per_page=24&format=json&nojsoncallback=1`
 				)
 				.then((response) => {
@@ -60,9 +59,7 @@ export default class App extends Component {
 			loading: true
 		});
 
-		axios
-			.get(
-				`https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=${query}&per_page=24&format=json&nojsoncallback=1`
+		axios.get(`https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=${query}&per_page=24&format=json&nojsoncallback=1`
 			)
 			.then((response) => {
 				this.setState({
