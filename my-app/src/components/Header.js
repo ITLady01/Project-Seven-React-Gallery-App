@@ -8,7 +8,7 @@ import Nav from './Nav';
 const Header = (props) => {
   return (
     <header>
-       <h1> Winnie's React Gallery App</h1>
+       <h1> Winnie's React Photo App</h1>
       <p> </p>
        <SearchForm
          handleFetching={props.handleFetching}
