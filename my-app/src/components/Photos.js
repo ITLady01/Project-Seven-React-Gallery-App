@@ -5,7 +5,8 @@ const Photos = (props) => {
 	// mapping over the items of the data passed as props to the photos component
 	// it returns a PhotosList component for each item mapped
 	let images = props.data.map((images) => (
-		<PhotosList	url={`https://farm${images.farm}.staticflickr.com/${images.server}/${images.id}_${images.secret}.jpg`}
+		<PhotosList
+			url={`https://farm${images.farm}.staticflickr.com/${images.server}/${images.id}_${images.secret}.jpg`}
 			key={images.id}
 		/>
 	));

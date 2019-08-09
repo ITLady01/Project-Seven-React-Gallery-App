@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  color: Purple;
+  color: violet;
 
 }
 
@@ -17,7 +17,7 @@ h2 {
   font-size: 2em;
   margin: 52px 0 40px;
   text-transform: capitalize;
-  color: Purple;
+  color: violet;
 }
 
 ul {
@@ -31,13 +31,13 @@ ul {
    
  }
 a {
-  text-decoration: none;
+  text-decoration:initial;
     color:blueviolet;
 }
 
 
 a.hover {
-  color: blue;
+  background-color: blueviolet;
 }
 
 .search-form {
