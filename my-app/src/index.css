@@ -30,6 +30,7 @@ ul {
    color: blueviolet;
    
  }
+ 
 a {
   text-decoration:initial;
     color:blueviolet;
@@ -147,6 +148,6 @@ input {
 .div#root {
   margin: 10px;
   width: 100px;
-  color: lightblue;
+  color:lightblue;
 }
 
