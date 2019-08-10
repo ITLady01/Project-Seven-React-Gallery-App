@@ -4,7 +4,6 @@ import {Route, Switch, Redirect} from 'react-router-dom';
 import Header from './components/Header';
 import Photos from './components/Photos';
 import NotFound from './components/NotFound';
-import Loading from './components/Loading';
 import apiKey from './config';
 
 
