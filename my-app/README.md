@@ -1,6 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ##CSS Changes 
-I made alot personal changes in my React app. Adding 3d effects to my images, background color, hover effect,shadow, border, size and much more.
+I made alot personal changes in my React app. Adding 3d effects to my images, background color, hover effect, shadow, border, size and much more.
 
 ## Available Scripts
 
