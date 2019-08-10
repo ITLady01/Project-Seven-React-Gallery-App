@@ -1,4 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##CSS Changes 
+I made alot personal changes in my React app. Adding 3d effects to my images, background color, hover effect,shadow, border, size and much more.
 
 ## Available Scripts
 
@@ -66,3 +68,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
