@@ -10,8 +10,13 @@ h1 {
   margin: 52px 0 40px;
   text-transform: capitalize;
   color:#b366ff;
+  
 
   }
+  h1.hover {
+      color:lightpink;
+  
+    }
 
 h2 {
   font-size: 2em;
@@ -65,17 +70,23 @@ input {
 .main-nav a {
   display: block;
   background: #b366ff;
-  border-radius: 3px;
-  padding: 5px;
+  border-radius: 8px;
+  padding: 15px 25px;
   color: black;
+  cursor: pointer;
   font-style: initial;
   font-weight: bolder;
+  box-shadow: 0 9px #999;
 }
 
 .main-nav .active,
 .main-nav a:hover,
 .search-form button:hover {
   background-color: #b366ff;
+  color: blueviolet;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  
 }
 
 .photo-container ul {
