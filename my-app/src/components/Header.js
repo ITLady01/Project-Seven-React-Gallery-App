@@ -8,8 +8,8 @@ import Nav from './Nav';
 const Header = (props) => {
   return (
     <header>
-       <h1> Winnie's React Photo App</h1>
-      <p> </p>
+       <h1> Winnie's React Gallery App</h1>
+      
        <SearchForm
          handleFetching={props.handleFetching}
          history={props.history} />
@@ -18,5 +18,6 @@ const Header = (props) => {
     </header>
   );
 }
+
 
 export default Header;
