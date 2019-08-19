@@ -123,13 +123,7 @@ input {
   width: 100%;
   background-image: image
 }
-/* .photo-container .not-found {
-  width: 100%;
-  background-image: url('https://www.google.com/search?q=purple+404+page+background+image&rlz=1C1CHBF_enUS836US836&tbm=isch&source=iu&ictx=1&fir=-KVXhg--7j5PoM%253A%252CjP__dZpi5i0OxM%252C_&vet=1&usg=AI4_-kRDTF5yJxSVFU0t9tLyMeEEfgKIvw&sa=X&ved=2ahUKEwikjeL30fjjAhXizVkKHftkDJ4Q9QEwAHoECAkQBg#imgrc=-KVXhg--7j5PoM:&vet=1')
-} */
-/* .Logo {
-  background-image: url(./logo.png);
-} */
+
 @media only screen and (max-width: 767px)  {
   body {
     padding-top: 2em;
